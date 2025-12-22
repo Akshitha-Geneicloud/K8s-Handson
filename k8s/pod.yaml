@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ecocycle
+spec:
+  containers:
+    - name: ecocycle-container
+      image: akshithauser/ecocycle-react:latest
+      ports:
+        - containerPort: 80
